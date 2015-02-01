@@ -10,52 +10,52 @@
     'body': '.END'
   'add':
     'prefix': 'add'
-    'body': 'ADD'
+    'body': 'ADD '
   'and':
     'prefix': 'and'
-    'body': 'AND'
+    'body': 'AND '
   'br':
     'prefix': 'br'
-    'body': 'BR'
+    'body': 'BR '
   'jmp':
     'prefix': 'jmp'
-    'body': 'JMP'
+    'body': 'JMP '
   'jsr':
     'prefix': 'jsr'
-    'body': 'JSR'
+    'body': 'JSR '
   'jsrr':
     'prefix': 'jsrr'
-    'body': 'JSRR'
+    'body': 'JSRR '
   'ld':
     'prefix': 'ld'
-    'body': 'LD'
+    'body': 'LD '
   'ldi':
     'prefix': 'ldi'
-    'body': 'LDI'
+    'body': 'LDI '
   'ldr':
     'prefix': 'ldr'
-    'body': 'LDR'
+    'body': 'LDR '
   'lea':
     'prefix': 'lea'
-    'body': 'LEA'
+    'body': 'LEA '
   'not':
     'prefix': 'not'
-    'body': 'NOT'
+    'body': 'NOT '
   'ret':
     'prefix': 'ret'
-    'body': 'RET'
+    'body': 'RET '
   'rti':
     'prefix': 'rti'
-    'body': 'RTI'
+    'body': 'RTI '
   'st':
     'prefix': 'st'
-    'body': 'ST'
+    'body': 'ST '
   'sti':
     'prefix': 'sti'
-    'body': 'STI'
+    'body': 'STI '
   'str':
     'prefix': 'str'
-    'body': 'STR'
+    'body': 'STR '
   'trap':
     'prefix': 'trap'
-    'body': 'TRAP'
+    'body': 'TRAP '
