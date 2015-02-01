@@ -1,0 +1,61 @@
+'.source.asm':
+  'orig':
+    'prefix': 'orig'
+    'body': '.ORIG'
+  'halt':
+    'prefix': 'halt'
+    'body': 'HALT'
+  'end':
+    'prefix': 'end'
+    'body': '.END'
+  'add':
+    'prefix': 'add'
+    'body': 'ADD'
+  'and':
+    'prefix': 'and'
+    'body': 'AND'
+  'br':
+    'prefix': 'br'
+    'body': 'BR'
+  'jmp':
+    'prefix': 'jmp'
+    'body': 'JMP'
+  'jsr':
+    'prefix': 'jsr'
+    'body': 'JSR'
+  'jsrr':
+    'prefix': 'jsrr'
+    'body': 'JSRR'
+  'ld':
+    'prefix': 'ld'
+    'body': 'LD'
+  'ldi':
+    'prefix': 'ldi'
+    'body': 'LDI'
+  'ldr':
+    'prefix': 'ldr'
+    'body': 'LDR'
+  'lea':
+    'prefix': 'lea'
+    'body': 'LEA'
+  'not':
+    'prefix': 'not'
+    'body': 'NOT'
+  'ret':
+    'prefix': 'ret'
+    'body': 'RET'
+  'rti':
+    'prefix': 'rti'
+    'body': 'RTI'
+  'st':
+    'prefix': 'st'
+    'body': 'ST'
+  'sti':
+    'prefix': 'sti'
+    'body': 'STI'
+  'str':
+    'prefix': 'str'
+    'body': 'STR'
+  'trap':
+    'prefix': 'trap'
+    'body': 'TRAP'

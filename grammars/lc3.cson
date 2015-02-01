@@ -1,0 +1,16 @@
+'scopeName': 'text.asm'
+'name': 'LC3'
+'injectionSelector': 'comment, text.plain'
+'patterns': [
+  {
+    'match': '(?<!\\w)@?(.ORIG|HALT|.END|ADD|AND|BR|JMP|JSR|JSRR|LD|LDI|LDR|LEA|NOT|RET|RTI|ST|STI|STR|TRAP)\\b'
+    'name': 'storage.type.class.${1:/downcase}'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'markup.underline.link.radar'
+    'match': '<(ra?dar:/(?:/problems?|)/(?:[&0-9]+))>'
+    'name': 'storage.type.class.radar'
+  }
+]
